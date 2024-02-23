@@ -41,9 +41,19 @@ Mobile.tap(findTestObject('ProgramJHT/android.widget.ImageVJaminanHariTua'), 0)
 
 Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.widget.ButtonCekSaldo'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.view.VRincianPembayaran'), 0)
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IPenerimaUpah'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.ImageVBagikanPDF'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IKlikEmail'), 0)
 
 Mobile.takeScreenshot()
+
+WebUI.delay(5)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.view.VKlikSembarang'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IbackKepersetaanTidakAktif'), 0)
 
 Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.widget.IBackDataPesertaTidakSesuai'), 0)
 

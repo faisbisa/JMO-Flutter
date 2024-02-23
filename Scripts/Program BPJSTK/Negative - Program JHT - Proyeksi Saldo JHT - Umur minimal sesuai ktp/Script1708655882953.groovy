@@ -39,13 +39,41 @@ WebUI.delay(10)
 
 Mobile.tap(findTestObject('ProgramJHT/android.widget.ImageVJaminanHariTua'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.widget.ButtonCekSaldo'), 0)
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.ButtonProyeksiSaldoJHT'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.view.VRincianPembayaran'), 0)
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IKlikButtonUbah'), 0)
+
+WebUI.delay(3)
+
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EditText - Rp 5.000.0'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IKlikButtonX'), 0)
+
+Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EditJumlahUpah'), '10000000', 0)
+
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputTingkatKenaikanUpah'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IKlikBottonX2'), 0)
+
+Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputTingkatKenaikanUpah'), '15', 0)
+
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputUsiaSaatKlaim'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IKlikButtonX3'), 0)
+
+Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputUsiaSaatKlaim'), '30', 0)
+
+WebUI.delay(4)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.widget.IBackDataPesertaTidakSesuai'), 0)
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.view.VCklikCeklis'), 0)
+
+Mobile.doubleTap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.view.VTapSembarang'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IBackProyeksiSaldoJHT'), 0)
+
+Mobile.takeScreenshot()
 
 WebUI.delay(3)
 

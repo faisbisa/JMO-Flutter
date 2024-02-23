@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative - Program JHT - Proyeksi Saldo JHT - Umur minimal sesuai ktp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4daf8f6-b931-4d7d-8c2f-3cc0ca32c137</testCaseGuid>
+</TestCaseEntity>

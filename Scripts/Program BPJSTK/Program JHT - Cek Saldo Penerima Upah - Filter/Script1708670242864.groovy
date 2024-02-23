@@ -41,9 +41,31 @@ Mobile.tap(findTestObject('ProgramJHT/android.widget.ImageVJaminanHariTua'), 0)
 
 Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.widget.ButtonCekSaldo'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.view.VRincianPembayaran'), 0)
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IPenerimaUpah'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IKlikFilter'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IPilihBulan'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IKLikBackTanggal'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.view.VPilihFeb2023'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.view.VKlikPilih'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IPilihBulanAkhir'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.view.VPilihJan2024'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.view.VKlikPilih'), 0)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.view.VKlikSimpan'), 0)
 
 Mobile.takeScreenshot()
+
+WebUI.delay(3)
+
+Mobile.tap(findTestObject('ProgramJHT/CekSaldo-PenerimaUpah/android.widget.IbackKepersetaanTidakAktif'), 0)
 
 Mobile.tap(findTestObject('ProgramJHT/JHT-CekSAldo/android.widget.IBackDataPesertaTidakSesuai'), 0)
 

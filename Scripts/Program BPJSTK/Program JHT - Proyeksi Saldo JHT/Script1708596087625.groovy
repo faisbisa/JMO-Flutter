@@ -49,25 +49,19 @@ Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EditTe
 
 Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IKlikButtonX'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputJumalahUpah'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EditJumlahUpah'), '10000000', 0)
 
-Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputJumalahUpah'), '10000000', 0)
-
-Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.ETingkatKenaikanUpah'), 0)
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputTingkatKenaikanUpah'), 0)
 
 Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IKlikBottonX2'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputTingkatKenaikanUpah'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputTingkatKenaikanUpah'), '15', 0)
 
-Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputTingkatKenaikanUpah'), '10', 0)
-
-Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EditUsiaJHT'), 0)
+Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputUsiaSaatKlaim'), 0)
 
 Mobile.tap(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.IKlikButtonX3'), 0)
 
-Mobile.tap(findTestObject('ProgramPensiun/android.widget.IKlikMencapaiUsiaPensiun'), 0, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.setText(findTestObject('ProgramPensiun/android.widget.IKlikMencapaiUsiaPensiun'), '30', 0)
+Mobile.setText(findTestObject('ProgramJHT/JHT-ProyeksiSaldoJHT/android.widget.EInputUsiaSaatKlaim'), '50', 0)
 
 WebUI.delay(3)
 
