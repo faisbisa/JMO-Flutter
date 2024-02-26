@@ -23,11 +23,11 @@ Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditEmail'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'faisalkurnis12@gmail.com', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome2#', 0)
 
 WebUI.delay(3)
 
@@ -39,15 +39,13 @@ Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
 
 WebUI.delay(2)
 
-Mobile.tap(findTestObject('Profil-UbahKontak/Profil-PreferenceInformasi/android.widget.IPreferenceInformasi'), 0)
-
-Mobile.swipe(0, 0, 0, 0)
+Mobile.tap(findTestObject('Profil-UbahKontak/Profile-TentangAplikasi/android.widget.ITentangAplikasi'), 0)
 
 WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Profil-UbahKontak/android.widget.IBackUbahKontak'), 0)
+Mobile.tap(findTestObject('Profil-UbahKontak/Profile-TentangAplikasi/android.widget.IBackTentangAplikasi'), 0)
 
 Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
 

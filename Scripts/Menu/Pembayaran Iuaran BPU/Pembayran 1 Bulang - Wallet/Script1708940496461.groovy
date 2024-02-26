@@ -35,19 +35,13 @@ Mobile.tap(findTestObject('ProgramJHT/android.view.ViewMasuk'), 0)
 
 WebUI.delay(10)
 
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.IPilihMetodePembayaran'), 0)
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.IPilihMetodePembayaran'), 0)
+
 Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
 
-WebUI.delay(2)
-
-Mobile.tap(findTestObject('Profil-UbahKontak/Profil-PreferenceInformasi/android.widget.IPreferenceInformasi'), 0)
-
-Mobile.swipe(0, 0, 0, 0)
-
 WebUI.delay(3)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Profil-UbahKontak/android.widget.IBackUbahKontak'), 0)
 
 Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
 

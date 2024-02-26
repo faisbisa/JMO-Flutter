@@ -27,7 +27,7 @@ Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gm
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome2#', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome1#', 0)
 
 WebUI.delay(3)
 
@@ -43,44 +43,24 @@ Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.view
 
 Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EditTextKataSandi'), 0)
 
-Mobile.setText(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EditTextKataSandi'), 'Welcome2#', 
+Mobile.setText(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EditTextKataSandi'), 'Welcome1#', 
     0)
 
 Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.view.VKlikLan'), 0)
 
 Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EMasukkanKataSandi'), 0)
 
-Mobile.setText(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EMasukkanKataSandiAnda'), 'Welcome1#', 
+Mobile.setText(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EMasukkanKataSandiAnda'), 'Welcome2#', 
     0)
 
-Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.ILihatKataSandi'), 0)
+Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.Ekonfirmasikatasandi'), 0)
 
-Mobile.setText(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EKonfirmasi Kata Sandi'), 'Welcome1#', 
+Mobile.setText(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.EKonfirmasi Kata Sandi'), 'Welcome2#', 
     0)
-
-Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.ILihatKataSandi'), 0)
 
 Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.view.VUbahKataSandi'), 0)
 
-Mobile.tap(findTestObject('Profil-UbahKontak/Profil-Ubah Kata Sandi/android.widget.ILihatKonfirmasiKataSandi'), 0)
-
 WebUI.delay(3)
 
 Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Profil-UbahKontak/android.widget.IBackUbahKontak'), 0)
-
-WebUI.delay(3)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
-
-WebUI.delay(3)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
-
-WebUI.delay(3)
 
