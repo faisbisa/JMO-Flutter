@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Pembayran 1 Bulang - Wallet</name>
+   <name>Pembayran 1 Bulan - Lainnya (App Online) - Cermati</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>54eb1d1d-2d71-4631-885a-c30d9a85b5bb</testCaseGuid>
+   <testCaseGuid>b002e030-02ac-464a-8c38-c2fefe6b17c0</testCaseGuid>
 </TestCaseEntity>

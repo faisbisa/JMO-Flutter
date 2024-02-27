@@ -23,11 +23,11 @@ Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditEmail'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'faisalkurnis12@gmail.com', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome2#', 0)
 
 WebUI.delay(3)
 
@@ -35,21 +35,51 @@ Mobile.tap(findTestObject('ProgramJHT/android.view.ViewMasuk'), 0)
 
 WebUI.delay(10)
 
-Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.IPilihMetodePembayaran'), 0)
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.ImageVPembayaranIuranBPU'), 0)
 
-Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.IPilihMetodePembayaran'), 0)
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.EditTextKPJ'), 0)
 
-Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
+Mobile.setText(findTestObject('menu/PembayaranIuranBPU/android.widget.EditTextKPJ'), '3520040511900001', 0)
 
-WebUI.delay(3)
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.view.VcatatanPembayaran'), 0)
 
-Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.RadioButton1Bulann'), 0)
 
 WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.view.VKLikLanjutkankePertinjau'), 0)
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.view.VKLiklanjutkeMetodePembayran'), 0)
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.widget.IPilihMetodePembayaran'), 0)
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/Lainnya (Aplikasi Online)/android.view.VLainnya App OL'), 0)
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/Lainnya (Aplikasi Online)/android.widget.ITokopedia'), 0)
 
 WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/android.view.VKLikBayar'), 0)
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/mobileBanking/android.widget.IRincianPembayaran'), 0)
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('menu/PembayaranIuranBPU/mobileBanking/android.view.VKlikTutup'), 0)
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Profil-UbahKontak/android.widget.IPilihProfil'), 0)
+
+Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
+
+Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
 
