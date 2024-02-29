@@ -23,61 +23,59 @@ Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditEmail'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'faisalkurnis12@gmail.com', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome1#', 0)
 
 WebUI.delay(3)
 
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Profil-UbahKontak/android.view.VKlikMasuk'), 0)
+Mobile.tap(findTestObject('ProgramJHT/android.view.ViewMasuk'), 0)
 
 WebUI.delay(10)
 
-Mobile.tap(findTestObject('ProgramJHT/android.widget.ImageVJaminanHariTua'), 0)
+Mobile.tap(findTestObject('menu/Loyalti/android.widget.ISemuaMenu'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/android.widget.IPelajariSelengkapnya'), 0)
+WebUI.delay(2)
 
-Mobile.tap(findTestObject('ProgramJHT/android.view.VManfaatProgram'), 0)
+Mobile.tap(findTestObject('menu/Loyalti/android.widget.EditTextCariLayanan'), 0)
 
-Mobile.takeScreenshot()
+Mobile.setText(findTestObject('menu/Loyalti/android.widget.EditTextCariLayanan'), 'Loyalti', 0)
 
-Mobile.tap(findTestObject('ProgramJHT/android.view.VPengajuanKlaim'), 0)
+Mobile.doubleTap(findTestObject('menu/Loyalti/android.widget.ILoyalti2'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/android.view.VPembayaranIuran'), 0)
+Mobile.doubleTap(findTestObject('menu/Loyalti/android.widget.ILoyalti2'), 0)
 
-Mobile.takeScreenshot()
-
-WebUI.delay(3)
-
-Mobile.tap(findTestObject('ProgramJHT/android.view.VPengajuanKlaim'), 0)
-
-Mobile.takeScreenshot()
+Mobile.tapAndHold(findTestObject('menu/Loyalti/android.widget.ILoyalti2'), 0, 0)
 
 WebUI.delay(3)
 
-Mobile.tap(findTestObject('ProgramJHT/android.widget.BURLLapakAsik'), 0)
-
 Mobile.takeScreenshot()
 
+Mobile.tap(findTestObject('menu/Loyalti/android.view.VPilihPertama'), 0)
+
 WebUI.delay(3)
+
+Mobile.takeScreenshot()
 
 Mobile.pressBack()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('ProgramJHT/android.widget.IbackInfoSelangkapnya'), 0)
+Mobile.pressBack()
 
 Mobile.pressBack()
+
+WebUI.delay(3)
 
 Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
-
-WebUI.delay(3)
 
 Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
 
 Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
+
+WebUI.delay(3)
+
+Mobile.pressBack()
 

@@ -31,45 +31,37 @@ Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14
 
 WebUI.delay(3)
 
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Profil-UbahKontak/android.view.VKlikMasuk'), 0)
+Mobile.tap(findTestObject('ProgramJHT/android.view.ViewMasuk'), 0)
 
 WebUI.delay(10)
 
-Mobile.tap(findTestObject('ProgramJHT/android.widget.ImageVJaminanHariTua'), 0)
+Mobile.tap(findTestObject('menu/DataTidakSeuai/android.widget.ImenuDataTidakSesuai'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/android.widget.IPelajariSelengkapnya'), 0)
+Mobile.tap(findTestObject('menu/DataTidakSeuai/android.widget.IDAtaPerusahaanbelumterdaftar'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/android.view.VManfaatProgram'), 0)
+Mobile.tap(findTestObject('menu/DataTidakSeuai/android.widget.EditTextMasukkanNamaPerusahaan'), 0)
 
-Mobile.takeScreenshot()
+Mobile.setText(findTestObject('menu/DataTidakSeuai/android.widget.EditTextMasukkanNamaPerusahaan'), 'PT ODO', 0)
 
-Mobile.tap(findTestObject('ProgramJHT/android.view.VPengajuanKlaim'), 0)
+Mobile.tap(findTestObject('menu/DataTidakSeuai/android.widget.IKlikAlamat'), 0)
 
-Mobile.tap(findTestObject('ProgramJHT/android.view.VPembayaranIuran'), 0)
+Mobile.tap(findTestObject('menu/DataTidakSeuai/android.view.VPilihKalino cafe'), 0)
 
-Mobile.takeScreenshot()
+Mobile.tap(findTestObject('menu/DataTidakSeuai/android.view.VPilihKalino cafe'), 0)
 
-WebUI.delay(3)
-
-Mobile.tap(findTestObject('ProgramJHT/android.view.VPengajuanKlaim'), 0)
-
-Mobile.takeScreenshot()
+driver.pushFile('@<app_bundle_id>:documents/sample.png', new File('/Users/katalonuser/Desktop/sample.png'))
 
 WebUI.delay(3)
 
-Mobile.tap(findTestObject('ProgramJHT/android.widget.BURLLapakAsik'), 0)
-
 Mobile.takeScreenshot()
 
+Mobile.tap(findTestObject('menu/DataTidakSeuai/android.widget.IDAtaPerusahaanbelumterdaftar'), 0)
+
 WebUI.delay(3)
+
+Mobile.takeScreenshot()
 
 Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('ProgramJHT/android.widget.IbackInfoSelangkapnya'), 0)
 
 Mobile.pressBack()
 
@@ -80,4 +72,6 @@ WebUI.delay(3)
 Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
 
 Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
+
+WebUI.delay(3)
 
