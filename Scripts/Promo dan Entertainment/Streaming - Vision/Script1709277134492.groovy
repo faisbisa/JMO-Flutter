@@ -21,7 +21,7 @@ Mobile.startApplication('C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\
 
 Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
-Mobile.tap(findTestObject('Login/android.widget.EditEmail'), 0)
+Mobile.tap(findTestObject('Login/android.widget.EditTextInputEmail'), 0)
 
 Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
@@ -35,31 +35,37 @@ Mobile.tap(findTestObject('ProgramJHT/android.view.ViewMasuk'), 0)
 
 WebUI.delay(10)
 
-Mobile.tap(findTestObject('menu/DanaSiaga/android.widget.IDanaSiaga'), 0)
+Mobile.tap(findTestObject('menu/Loyalti/android.widget.ISemuaMenu'), 0)
+
+WebUI.delay(2)
+
+Mobile.tapAtPosition(416, 1135)
 
 WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('menu/DanaSiaga/android.widget.IKlikICTDanaSiaga'), 0)
+Mobile.tap(findTestObject('menu/Streaming/android.view.VPilihVision'), 0)
 
-Mobile.tap(findTestObject('menu/DanaSiaga/android.view.VKlikSetujuDanaSiaga'), 0)
+Mobile.tap(findTestObject('menu/Streaming/android.view.VPilihRTILiveTV'), 0)
 
-WebUI.delay(3)
+WebUI.delay(7)
 
 Mobile.takeScreenshot()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('menu/DanaSiaga/android.view.VKlikBatalDanaSiaga'), 0)
+WebUI.delay(3)
 
-Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
+Mobile.tap(findTestObject('menu/Streaming/android.widget.IBack2'), 0)
+
+Mobile.tap(findTestObject('menu/Streaming/android.widget.IBack2'), 0)
 
 WebUI.delay(3)
+
+Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
 
 Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
 
 Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
-
-WebUI.delay(3)
 

@@ -23,11 +23,11 @@ Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditTextInputEmail'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'faisalkurnis12@gmail.com', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome1#', 0)
 
 WebUI.delay(3)
 
@@ -39,25 +39,33 @@ Mobile.tap(findTestObject('menu/Loyalti/android.widget.ISemuaMenu'), 0)
 
 WebUI.delay(2)
 
-Mobile.tapAtPosition(145, 1119)
+Mobile.tapAtPosition(400, 1224)
 
 WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('menu/Loyalti/android.view.VPilihPertama'), 0)
+Mobile.tapAtPosition(416, 1135)
 
-WebUI.delay(3)
+Mobile.tap(findTestObject('menu/Streaming/android.view.VKlikRCTI'), 0)
+
+WebUI.delay(5)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('menu/Streaming/android.widget.Image - X Factor Indonesia 2023'), 0)
+
+WebUI.delay(7)
 
 Mobile.takeScreenshot()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
+Mobile.tap(findTestObject('menu/Streaming/android.widget.IBack2'), 0)
 
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
+WebUI.delay(3)
 
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
+Mobile.tap(findTestObject('menu/Streaming/android.widget.IBack2'), 0)
 
 WebUI.delay(3)
 

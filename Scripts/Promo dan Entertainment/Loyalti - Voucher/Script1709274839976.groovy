@@ -23,11 +23,11 @@ Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditTextInputEmail'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'faisalkurnis12@gmail.com', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome1#', 0)
 
 WebUI.delay(3)
 
@@ -45,7 +45,13 @@ WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('menu/Loyalti/android.view.VPilihPertama'), 0)
+Mobile.tap(findTestObject('menu/Loyalti/android.view.VPilihVoucher'), 0)
+
+Mobile.tap(findTestObject('menu/Loyalti/android.view.VPilihKeduaVoucher'), 0)
+
+Mobile.tap(findTestObject('menu/Loyalti/android.webkit.WKlikGenerateVoucher'), 0)
+
+Mobile.tap(findTestObject('menu/Loyalti/android.widget.Button - Download QR'), 0)
 
 WebUI.delay(3)
 

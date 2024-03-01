@@ -23,11 +23,11 @@ Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditTextInputEmail'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'faisalkurnis12@gmail.com', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome1#', 0)
 
 WebUI.delay(3)
 
@@ -37,33 +37,19 @@ WebUI.delay(10)
 
 Mobile.tap(findTestObject('menu/Loyalti/android.widget.ISemuaMenu'), 0)
 
-WebUI.delay(2)
-
-Mobile.tapAtPosition(145, 1119)
-
-WebUI.delay(3)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('menu/Loyalti/android.view.VPilihPertama'), 0)
-
-WebUI.delay(3)
-
-Mobile.takeScreenshot()
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
-
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
-
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
-
-WebUI.delay(3)
+Mobile.tapAtPosition(970, 1556)
 
 Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
 
+WebUI.delay(3)
+
 Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
 
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
 Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
+
+WebUI.delay(3)
 

@@ -35,17 +35,15 @@ Mobile.tap(findTestObject('ProgramJHT/android.view.ViewMasuk'), 0)
 
 WebUI.delay(10)
 
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.ISemuaMenu'), 0)
-
-WebUI.delay(2)
-
-Mobile.tapAtPosition(145, 1119)
+Mobile.tap(findTestObject('menu/DanaSiaga/android.widget.IDanaSiaga'), 0)
 
 WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('menu/Loyalti/android.view.VPilihPertama'), 0)
+Mobile.tap(findTestObject('menu/DanaSiaga/android.widget.IKlikICTDanaSiaga'), 0)
+
+Mobile.tap(findTestObject('menu/DanaSiaga/android.view.VKlikSetujuDanaSiaga'), 0)
 
 WebUI.delay(3)
 
@@ -53,17 +51,15 @@ Mobile.takeScreenshot()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
-
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
-
-Mobile.tap(findTestObject('menu/Loyalti/android.widget.IBackDetailPromo'), 0)
-
-WebUI.delay(3)
+Mobile.tap(findTestObject('menu/DanaSiaga/android.view.VKlikBatalDanaSiaga'), 0)
 
 Mobile.tap(findTestObject('Login/android.widget.IProfil'), 0)
+
+WebUI.delay(3)
 
 Mobile.tap(findTestObject('Login/android.view.VKeluar'), 0)
 
 Mobile.tap(findTestObject('Login/android.view.VYaKeluar'), 0)
+
+WebUI.delay(3)
 

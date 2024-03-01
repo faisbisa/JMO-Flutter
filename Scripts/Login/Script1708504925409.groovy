@@ -21,13 +21,13 @@ Mobile.startApplication('C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\
 
 Mobile.tap(findTestObject('Object Repository/Login/android.view.View (1)'), 0)
 
-Mobile.tap(findTestObject('Login/android.widget.EditEmail'), 0)
+Mobile.tap(findTestObject('Login/android.widget.EditTextInputEmail'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'faisalkurnis12@gmail.com', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditEmail'), 'bluesafif05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.EditPassword'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Faisbisa@14', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditPassword'), 'Welcome1#', 0)
 
 WebUI.delay(3)
 
